@@ -10,6 +10,7 @@ import Circuitos from "./Componentes/Circuitos/Circuitos";
 import Datos from "./Componentes/Datos/Datos";
 import Login from "./Componentes/Login/Login";
 import Monitoreo from './Componentes/Monitoreo/Monitoreo';
+import Estadistica from './Componentes/Estadistica/Estadistica';
 // import your route components too
 
 const root = ReactDOM.createRoot(
@@ -23,6 +24,7 @@ root.render(
         <Route path="/circuito" element={<Circuitos />}/>
           <Route path="/datos" element={<Datos />} />
           <Route path="/monitoreo" element={<Monitoreo />} />
+          <Route path="/estadistica" element={<Estadistica />} />
     </Routes>
   </BrowserRouter>
 );

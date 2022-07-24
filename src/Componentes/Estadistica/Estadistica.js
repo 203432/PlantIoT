@@ -1,8 +1,8 @@
-import "./Datos.css";
+import "./Estadistica.css";
 import React, {useState, useEffect} from "react";
 
 
-const Datos=() =>{
+const Estadistica=() =>{
     
 const [planta,setPlanta] = useState([])
 
@@ -49,4 +49,4 @@ fetch('http://192.168.0.25:3002/api/planta')
     );
 };
 
-export default Datos;
+export default Estadistica;
