@@ -6,11 +6,11 @@ import {
   Route,
 } from "react-router-dom";
 import App from "./App";
-import Circuitos from "./Componentes/Circuitos/Circuitos";
 import Datos from "./Componentes/Datos/Datos";
 import Login from "./Componentes/Login/Login";
 import Monitoreo from './Componentes/Monitoreo/Monitoreo';
 import Estadistica from './Componentes/Estadistica/Estadistica';
+import Circuito from './Componentes/Circuitos/Circuito';
 // import your route components too
 
 const root = ReactDOM.createRoot(
@@ -21,8 +21,8 @@ root.render(
     <Routes>
       <Route path="/" element={<Login/>}/>
         <Route index element={<Login />} />
-        <Route path="/circuito" element={<Circuitos />}/>
           <Route path="/datos" element={<Datos />} />
+          <Route path="/circuito" element={<Circuito />} />
           <Route path="/monitoreo" element={<Monitoreo />} />
           <Route path="/estadistica" element={<Estadistica />} />
     </Routes>

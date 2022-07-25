@@ -24,7 +24,7 @@ function Login() {
     try{
         const name = user.name
         const passw = user.passw
-        const data = await axios.post("http://192.168.0.17:3002/api/login",
+        const data = await axios.post("http://192.168.0.46:3002/api/login",
         {
             name,
             passw
@@ -52,7 +52,7 @@ function Login() {
   return (
     <div>
       <div>
-        <section  className="container">
+        <section  className="containerlgn">
 
             <h2 className="Login-text-h2">L O G I N </h2>
 
