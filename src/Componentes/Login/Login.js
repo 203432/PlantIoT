@@ -24,7 +24,7 @@ function Login() {
     try{
         const name = user.name
         const passw = user.passw
-        const data = await axios.post("http://192.168.0.46:3002/api/login",
+        const data = await axios.post("http://localhost:3002/api/login",
         {
             name,
             passw

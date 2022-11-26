@@ -5,7 +5,7 @@ import NavBarExample from "../NavBar";
 
 
 const api = axios.create({
-    baseURL: "http://192.168.0.46:3002/api"
+    baseURL: "http://localhost:3002/api"
   });
 
   export const getPlanta= async()=>{

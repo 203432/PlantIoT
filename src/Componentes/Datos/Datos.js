@@ -9,7 +9,7 @@ const [planta,setPlanta] = useState([])
 
 useEffect(()=>{
     const getPlanta = () =>{
-fetch('http://192.168.0.46:3002/api/planta')
+fetch('http://localhost:3002/api/planta')
 .then(res => res.json())
 .then(res => setPlanta(res))
     }
